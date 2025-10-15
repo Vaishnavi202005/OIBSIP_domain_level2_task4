@@ -1,0 +1,140 @@
+.container
+        {
+            width:350px;
+            height:350px;
+            background-color: white;
+            border-radius:10px;
+            position:relative;
+            margin:auto;
+            margin-top: 250px;
+        }
+        .heading
+        {
+            position: absolute;
+            top:5px;
+            left:70px;
+            color:black;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        input[type="text"]{
+            width:300px;
+            height:35px;
+            border-radius: 5px;
+            border:1px solid gray;
+            position:absolute;
+            top:80px;
+            left:15px;
+            font-size:15px;
+            
+        }
+        input[type="password"]{
+            width:300px;
+            height:35px;
+            border-radius: 5px;
+            border:1px solid gray;
+            position:absolute;
+            top:135px;
+            left:15px;
+            font-size:15px;
+        }
+        .registerBtn
+        {
+            width:310px;
+            height:40px;
+            border-radius: 10px;
+            background-color:mediumblue;
+            position: absolute;
+            top:190px;
+            left:15px;
+            border:none;
+            color:white;
+            font-weight:bolder;
+            font-size: 15px;
+        }
+        .loginBtn
+        {
+            width:310px;
+            height:40px;
+            border-radius: 10px;
+            background-color:bright-blue;
+            position: absolute;
+            top:240px;
+            left:15px;
+            background-color: mediumblue;
+            border:none;
+            color:white;
+            font-weight:bolder;
+            font-size: 15px;
+        }
+        .registerBtn:hover{
+            background-color:darkblue;
+            
+        }
+        .loginBtn:hover{
+            background-color:darkblue;
+        }
+        #message
+        {
+            position: absolute;
+            top:280px;
+            left: 35px;
+            color:green;
+            font-size:18px;
+            font-weight:bold;
+            text-align: center;
+        }
+        .container1
+        {
+        width:350px;
+        height:200px;
+        border-radius:10px;
+        background-color: yellow;
+        position:relative;
+        margin:auto;
+        top:250px;
+        }
+        #securedPage
+         { width:350px;
+        height:200px;
+        border-radius:10px;
+        background-color: white;
+        position:relative;
+        margin:auto;
+        top:250px;
+        display:none;
+         }
+         .container1 h1
+         {
+            font-size: 30px;
+            color:blueviolet;
+            position: absolute;
+            margin-top: 25px;
+            margin-left: 110px;
+            font-weight: bold; 
+         }
+         .container1 p
+         {
+            font-size: 18px;
+            color:black;
+            position: absolute;
+            margin-top: 80px;
+            margin-left: 25px;
+            font-weight: bold;
+         }
+         .container1 button
+         {
+            width:310px;
+            height:40px;
+            position: absolute;
+            border-radius: 10px;
+            background-color:blue;
+            border:none;
+            margin-top:130px;
+            margin-left:20px;
+            font-size: 15px;
+            font-weight: bold;
+         }
+         .container1 button:hover{
+            background-color:darkblue;
+         }
