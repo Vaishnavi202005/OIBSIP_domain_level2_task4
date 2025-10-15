@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: lavenderblush">
+    <div class="container" id="authContainer">
+        <h2 class="heading">Register / Login</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button class="registerBtn" onclick="registerUser()">Register</button>
+        <button class="loginBtn" onclick="loginUser()">Login</button>
+        <p id="message"></p>
+    </div>
+
+    <div class="container1" id="securedPage">
+        <h1>Welcome!</h1>
+        <p>This is a secured page. You are logged in.</p>
+        <button onclick="logout()">Logout</button>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
